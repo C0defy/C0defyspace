@@ -1,0 +1,69 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    scroll-behavior:smooth
+}
+
+header {
+    background-color: hsl(215, 62%, 57%);
+    text-align: center;
+    font-size: large;
+}
+
+.content {
+    z-index: 1;
+    font-size: larger;
+    position: absolute;
+    display: inline-flex;
+    color: white;
+    align-content: center;
+}
+
+.Earth {
+    background-image: url(./Earth.gif);
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+}
+
+.Nebulae {
+    background-image: url(./Galaxy.gif);
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+}
+
+.Galaxy {
+    background-image: url(./Nebulae.gif);
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+}
+
+.insidecontent {
+    font-size: 2rem;
+    color: beige;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.nav {
+    gap: 2.3rem;
+    text-transform: uppercase;
+    align-items:center;
+    justify-content: space-between;  
+}
+
+footer {
+    background: black;
+    text-align: center;
+    color: #555;
+    padding: 40px
+}
